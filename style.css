@@ -114,6 +114,7 @@ footer {
             align-items: center;
             gap: 75px;
             padding: 10px;
+            transition: 0.5s;
 }
 .links a h5 {
             margin-bottom: 0;
@@ -124,7 +125,9 @@ footer {
             font-size: 20px;
             color: var(--Text-color);
 }
-
+.links a:hover {
+            background: #000;
+}
 .facebook {
             background: var(--Facebook-Blue);
 }
