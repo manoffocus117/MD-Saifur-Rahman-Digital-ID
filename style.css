@@ -67,6 +67,9 @@ footer {
             padding: 15px;
             border-radius: 20px;
 }
+.card-header img {
+            width: 80px;
+}
 .profile-image {
             padding: 20px 0px;
             width: 200px;
@@ -77,26 +80,45 @@ footer {
             object-fit: cover;
             border-radius: 50%;
 }
+.card-intro p {
+            letter-spacing: 5px;
+            margin-bottom: 0;
+}
 .profile-title h3 {
             text-align: center;
             text-transform: uppercase;
+            color: var(--Text-color);
 }
 .profile-desc {
             max-width: 306px;
             margin: auto;
 }
-.profile-desc p {
+.profile-desc h5 {
+            color: var(--Text-color);
             text-align: center;
             font-size: 15px;
             text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-bottom: 20px;
+}
+.profile-desc p {
+            text-align: left;
+            font-size: 15px;
+            color: var(--Text-color);
+            margin-bottom: 8px;
 }
 .profile-links h4 {
             text-align: center;
+            color: var(--Text-color);
+            font-size: 16px;
+            margin-top: 20px;
+            margin-bottom: 0;
 }
 .links {
             display: flex;
-            flex-direction: column;
             gap: 10px;
+            align-items: center;
+            justify-content: center;
             padding: 10px 0px 20px 0px;
             width: 200px;
             margin: auto;
@@ -112,8 +134,8 @@ footer {
             display: flex;
             flex-direction: row;
             align-items: center;
-            gap: 75px;
-            padding: 10px;
+            gap: 5px;
+            padding: 8px;
             transition: 0.5s;
 }
 .links a h5 {
@@ -122,7 +144,7 @@ footer {
             font-size: 18px;
 }
 .links a i {
-            font-size: 20px;
+            font-size: 15px;
             color: var(--Text-color);
 }
 .links a:hover {
