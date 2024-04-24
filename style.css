@@ -79,6 +79,7 @@ footer {
             height: 200px;
             object-fit: cover;
             border-radius: 50%;
+            border: 2px solid var(--Website-Creamson);
 }
 .card-intro p {
             letter-spacing: 5px;
